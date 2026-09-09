@@ -21,9 +21,50 @@ let drr=Array.from(crr);
 
 // Accessing- phase 2-----
 // Method 1
-console.log(Boolean([])); // truthy--> true
-console.log([]==[]); // false--> because reference
+// console.log(Boolean([])); // truthy--> true
+// console.log([]==[]); // false--> because reference
+
+let err=drr;
+// console.log(err==drr);
 
 // reference ::--->
 // stack reference
 // heap:: actual allocation
+
+// Method 1 :: index accessing
+
+// console.log(err[0])
+// console.log(err[1])
+// console.log(err[2])
+// console.log(err[-1])  // undefine --> -1 index is not exist
+// console.log(err.at(-1))   // backward indexing...
+
+// Method 2:: with loops
+
+// console.log(err); // this give return array object
+
+for(let i=0;i<err.length;i++){
+    // console.log(err[i]); // each elements which is present the index 
+}
+
+console.log()
+//for(let element  of err){
+//     console.log(element);
+// }
+
+// Mutability :: insert , update , delete..................
+
+console.log(err);
+
+// INSERTION / DELETION :: push, pop :: both will perform action to element to the end of the array
+err.push("hello");
+console.log(err);
+err.push("Good Morning");
+console.log(err);
+
+err.pop()
+console.log(err);
+console.log(err.pop()); // POP method will delete last element and return
+console.log(err);
+
+// INSERTION / DELETION :: from the start of the array
