@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Self Information</h1>
+    <form>
+        <label> Name: </label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="15" pattern="[A-Za-z\s]+" title="Enter your Name" autofocus>
+        <br><br>
+
+        <label> Father Name: </label>
+        <input type="text" id="fname" name="name" required minlength="2" maxlength="10" autofocus>
+        <br><br>
+
+        <label> Email: </label>
+        <input type="text" name="email" id="email" placeholder="example@gmail.com" required pattern="[A-Za-z0-9]+'@'[A-Za-z]+\.(com|in|co)$"
+        <br><br>
+
+        <label> Course </label>
+        <select name="course"></select>
+
+
+    </form>
+
+</body>
+
+</html>

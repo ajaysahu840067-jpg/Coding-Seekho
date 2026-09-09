@@ -1,0 +1,6 @@
+arr[1,2,3,4,5]
+count=0
+for x in arr:
+ if x%2!=0:
+  count+=1
+print(count)

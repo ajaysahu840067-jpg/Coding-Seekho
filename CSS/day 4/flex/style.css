@@ -1,0 +1,14 @@
+.container{
+    height: 400px;
+    width: 700px; 
+    border: 2px solid blue;
+    /* display: inline; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box{
+    height: 100px;
+    width:  100px;
+    border: 2px solid black;
+}

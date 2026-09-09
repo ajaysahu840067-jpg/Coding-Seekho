@@ -1,0 +1,23 @@
+#id.selector{
+    background-color: pink;
+}
+
+.class.selector{
+    background-color: aqua;
+}
+ p{
+    background-color: pink;
+}
+
+#order-list>:nth-child(odd){
+    background-color:blueviolet ;
+}
+.btn:hover{
+    border-color: brown;
+}
+.para::after{
+    content:"bye";
+}
+p{
+    background-color: aqua;
+}

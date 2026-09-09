@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+
+}
+
+h1{
+    padding: 30px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    gap:20px ;
+}
+/* All these transition property will add in the card */
+.card{
+    width: 250px;
+    height: 270px;
+    background-color: beige;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+
+}
+
+
+.card img{
+     width: 250px;
+     transition: transform 0.5 ease;
+    /*height: 270px;*/
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px red;
+}
+
+.card h2{
+    margin-top: 20px;
+}

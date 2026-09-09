@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(149, 149, 166) ;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px dotted red;
+    background-color: whitesmoke;
+    /* display: inline; */
+    display: inline-block; 
+}
+
+.link{
+    height: 100px;
+    font: 100px;
+    border: 2px solid black;
+
+}
+
+.hi{
+    display: inline-block;
+}
