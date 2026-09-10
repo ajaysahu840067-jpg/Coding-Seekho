@@ -76,8 +76,12 @@ err.splice(3,2,"Ajay","Abhay","RAj");
 // destructing
 let frr=[1,2,3,5,6,7,8,8];
 let[x,...y]=frr;
-console.log(x)
-console.log(y)
-console.log(...frr)
+// console.log(x)
+// console.log(y)
+// console.log(...frr)
+
+
+let grr=[1,2,3,4,5,[2,4,5,6,3]]
+
 
 
