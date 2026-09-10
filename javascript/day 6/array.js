@@ -1,4 +1,5 @@
 //Creation ...
+
 // Method 1
 let array=[1,2,3,4,5,6,7,8];  // array literals
 // console.log(array[1]);
@@ -47,24 +48,44 @@ for(let i=0;i<err.length;i++){
     // console.log(err[i]); // each elements which is present the index 
 }
 
-console.log()
+// console.log()
 //for(let element  of err){
 //     console.log(element);
 // }
 
 // Mutability :: insert , update , delete..................
 
-console.log(err);
+// console.log(err);
 
 // INSERTION / DELETION :: push, pop :: both will perform action to element to the end of the array
-err.push("hello");
-console.log(err);
-err.push("Good Morning");
-console.log(err);
+// err.push("hello");
+// console.log(err);
+// err.push("Good Morning");
+// console.log(err);
 
-err.pop()
-console.log(err);
-console.log(err.pop()); // POP method will delete last element and return
-console.log(err);
+// err.pop()
+// console.log(err);
+// console.log(err.pop()); // POP method will delete last element and return
+// console.log(err);
 
 // INSERTION / DELETION :: from the start of the array
+
+// shift(): delete from the start
+// unshift(): add at the start
+// err.shift()
+// console.log(err.shift()); // delete from the start and return it
+
+err.unshift(1);
+// console.log(err);
+
+
+// let frr=[];
+let frr=new Array();
+
+frr.unshift(1,2,3,4,5,6);
+console.log(frr);
+
+// empty vs undefine
+frr.length=10;
+console.log(frr);
+console.log(frr[6]);

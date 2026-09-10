@@ -1,4 +1,14 @@
-//
+/* 1 sep-2026
+update
+acess-searching
+sorting
+slice vs splice
+destructing
+spread
+flatter:: imp
+*/
+
+
 // topic 1  searching:: indexof() lastindexof() includes()
 
 //let arr=[1,2,6,5,4,8,100,2,6];
@@ -16,7 +26,7 @@
 
 //console.log(arr.indexOf(6)); // if the val is present it will
 //console.log(arr.lastIndexOf(6)); // same as above once
-//console.log(arr.includes(6)); // it return trye and false
+//console.log(arr.includes(6)); // it return true and false
 
 //console.log(arr.findLastIndex(6));
 //console.log(arr.findIndex())
@@ -43,9 +53,9 @@
 //
 // topic slice vs splice
 //
-//lice :: slice(st,end) //st is included and end is excluded
+//slice :: slice(st,end) //st is included and end is excluded
 
-l//et crr = [1,2,3,4,5,6,7,8,10,0,2];
+//let crr = [1,2,3,4,5,6,7,8,10,0,2];
 //let drr = crr.slice()
 //let drr = crr.slice(2);
 //let drr = crr.slice(2,6);
@@ -54,8 +64,20 @@ l//et crr = [1,2,3,4,5,6,7,8,10,0,2];
 //console.log(crr);
 
 
+// splice:: it is work over the original array or (it will mutate original array in place)
+// splice(stIdx, deleteCount, items, items, items)
 
-let grr=[1,2,3,4,5,6,[2,3,[2,6,4,5,6,7],5,6],[1,223,4,45]]
+let err=[86, 45, 3, 5, 8, 99, 49, 2];
 
-console.log(grr);
-console.log(...grr.flat(Infinity))
+err.splice(3,2,"Ajay","Abhay","RAj");
+// console.log(err);
+
+
+// destructing
+let frr=[1,2,3,5,6,7,8,8];
+let[x,...y]=frr;
+console.log(x)
+console.log(y)
+console.log(...frr)
+
+
