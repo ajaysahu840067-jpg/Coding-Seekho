@@ -11,9 +11,17 @@
         <h1>QR Generator by Ajay</h1>
         <p>Enter a Text & URL to generate QR</p>
         <input type="text" placeholder="Text URL" id="url">
-        <button id="btn">Generate QR</button>
+        <button id="btn" onclick="generator()">Generate QR</button>
 
-        <img src="script.js" alt="">
+        <div id="qrBox">
+            <img src="" alt="" id="qr">
+        </div>
+
+        <div id="message"></div>
+
+        
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
