@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br><br>
+        <input type="email" name="email" id="name" placeholder="Enter your Email">
+        <br><br>
+        <input type="password" name="password" id="name" placeholder="Enter your Password">
+        <br><br>
+        <button id="btn">Submit</button>
+
+    </form>
+
+    <script>
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click', (e) => {
+
+            e.preventDefault();
+            console.log('Button clicked');
+        });
+    </script>
+</body>
+
+</html>
