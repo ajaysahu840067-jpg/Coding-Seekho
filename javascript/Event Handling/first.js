@@ -3,12 +3,22 @@ let btn = document.querySelector('#btn');
 // let papa = document.querySelector('#papa');
 // let child = document.querySelector('#child');
 
-btn.addEventListener('click',()=>{console.log('Yes')});
+
+function fun(){
+    console.log('yes')
+}
+
+btn.addEventListener('click',fun)
+
+//btn.addEventListener('click',()=>{console.log('Yes')});
 //btn.addEventListener('click',()=>{console.log('No')});
 
-btn.removeEventListener('click',()=>{console.log('remove')});
+btn.removeEventListener('click',fun);
 
-let counter = 0;
+btn.addEventListener('click',fun);
+
+
+//let counter = 0;
 
 // btn.onclick = ()=>{
 //      console.log('counter1 = ${counter++}'); // string literal || format string
