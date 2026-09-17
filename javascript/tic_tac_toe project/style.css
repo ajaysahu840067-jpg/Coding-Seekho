@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgba(7, 7, 2, 0.628);
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -70,7 +70,7 @@ h1 {
 /* X */
 
 .x {
-    color: black;
+    color: rgb(14, 14, 9);
 }
 
 /* Check */
